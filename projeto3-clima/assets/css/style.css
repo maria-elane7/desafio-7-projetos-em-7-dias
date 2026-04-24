@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+}
+
+#searchBusca {
+    flex: 1;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#444;
+}
+
+
+
+.resultado {
+    display:none;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+}
+
+.titulo {
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+.tempo {
+    flex: 1;
+    text-align: center;
+}
+
+.vento {
+    flex: 1;
+    text-align: center;
+}
+
+
+.tituloTemp,
+.tituloVento {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+
+}
+
+.tempoInfo {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.ventoInfo{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tempInfo sup,
+.ventoInfo sup{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.areaPomteiro {
+    height: 70px;
+    width: 70px;
+    background-color: #555;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.ponteiro{
+    height:1px;
+    width:15px;
+    background-color:#fff;
+    transform-origin:left;
+}
+
+.aviso {
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #fff;
+}

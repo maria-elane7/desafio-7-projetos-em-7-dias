@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Clima</h1>
+
+    <form>
+        <input type="search" id="searchBusca">
+        <button>Buscar</button>
+    </form>
+
+    <section class="resultado">
+        <h1 class="titulo">--</h1>
+        <div class="info">
+            <div class="tempo">
+                <div class="tituloTemp">Temperatura</div>
+                <div class="tempoInfo">--<span>°C</span> </div>
+                <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="icon tempo">
+            </div>
+            <div class="vento">
+                <div class="tituloVento">Vento</div>
+                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="areaPomteiro">
+                    <div class="ponteiro" style="transform:rotate(0deg)"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="aviso"></div>
+
+    <footer>Criado por Maria Elane</footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
