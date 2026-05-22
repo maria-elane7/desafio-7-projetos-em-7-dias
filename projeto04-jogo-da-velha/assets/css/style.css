@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    margin-bottom:30px;
+}
+
+.areas{
+    width:300px;
+    height:300px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+}
+
+.area{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:60px;
+    font-weight:bolder;
+}
+
+.area.r{
+    border-right:1px solid #fff;
+}
+
+.area.b{
+    border-bottom:1px solid #fff;
+}
+
+.area:hover{
+    background-color:rgba(0,0,0,0.2);
+}
+
+
+.painelControle{
+    display:flex;
+    width:300px;
+    padding:30px;
+    margin-top:30px;
+    background-color:#444;
+}
+
+.jogadorVez{
+    flex:1;
+    text-align:center;
+}
+
+.Resultado{
+    flex:1;
+    text-align:center;
+}
+
+.vez,
+.resultado{
+    margin-top:5px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+.btn button{
+    padding:10px 30px;
+    margin-top:30px;
+    border:0;
+    background-color:#181818;
+    border-radius:5px;
+    color:#fff;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+
+
+.btn button:hover{
+    background-color:#000;
+}
+
